@@ -100,15 +100,25 @@ header .header-inner .menu-toggle-btn span{
 }
 
 /* 모바일 이미지 슬라이드 영역 */
-.slider img{width: 100%;max-width: 100%;}
+.slider img{
+  width: 100%;
+  max-width: 100%;
+  margin-top: 50px;
+}
 
 /* 모바일 디스플레이 영역 */
-.display-section{text-align: center; margin-top: 50px;}
+.display-section{
+  text-align: center; 
+  margin-top: 50px;
+}
 .display-section h2{margin-bottom: 30px;}
 
 /* 모바일 프로모션 영역 */
 .promotion-section{margin-top: 50px;}
-.promotion-section ul li{text-align: center; margin-top: 30px;}
+.promotion-section ul li{
+  text-align: center; 
+  margin-top: 30px;
+}
 .promotion-section ul li img{height: 50px;}
 .promotion-section ul li h3{
   color: #3f51b5;
@@ -118,9 +128,15 @@ header .header-inner .menu-toggle-btn span{
 }
 
 /* 모바일 워크 영역 */
-.work-section h2{text-align: center; margin-bottom: 50px;}
+.work-section h2{
+  text-align: center; 
+  margin-bottom: 50px;
+}
 .work-section ul li{width: 100%;}
-.work-section ul li a img{width: 100%; max-width: 100%;} 
+.work-section ul li a img{
+  width: 100%; 
+  max-width: 100%;
+} 
 
 /* 모바일 - 마우스 호버하면 파란배경 */
 .work-section ul li a{
